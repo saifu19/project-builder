@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Muse">
+        <meta name="keywords" content="Muse">
+        <meta name="author" content="Muse">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Project Builder - ProjectWe</title>
+        <link href="assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <!-- Muse CSS -->
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/flatpickr/dist/flatpickr.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/plyr/dist/plyr.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/choices-master/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/dropzone/dist/min/dropzone.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/simplebar/dist/simplebar.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/prism/prism.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="styles.css" rel="stylesheet">
+
+        <script type=“text/javascript” src=“https://www.bugherd.com/sidebarv2.js?apikey=vc6fvv8gvw8hpwajq20vza” async=“true”></script>
+
+    </head>
+    <body class="body-project">
+        <canvas id="confetti-canvas" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: transparent; z-index: 2; pointer-events: none;"></canvas>
+        <div class="row">
+            <div class="col-6 text-start">
+                <h1 style="color: #515251;">Practice Builder</h1>
+                <p class="s-bold text-uppercase" style="color: #515251;">Home > Practice Builder</p>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+                <div class="bg-white px-4 py-2" style="height: fit-content; border-radius: 20px;">
+                    <img class="mr-3" src="images/PNG/Asset 7.png" style="width: 15vw;">
+                    <img src="illustrator-assets/Asset 5.png" style="width: 2vw;">
+                </div>
+            </div>
+        </div>
+
+        <!-- Welcome -->
+        <div class="frame-project active" data-step="guide" data-num="0">
+            <div class="header-project" style="background-color: #3585C6;">
+                <h2>Welcome to the Practice Builder, [Name]</h2>
+            </div>
+            <div class="main-project">
+                <div class="d-flex h-100 align-items-center">
+                    <div class="row align-items-strech">
+                        <div class="col-6 d-flex align-items-center">
+                            <img src="illustrator-assets/Asset 1.png" class="img-fluid">
+                        </div>
+                        <div class="col-6 d-flex align-items-center px-5">
+                            <div>
+                                <h2 class="mb-2 lh-1" style="color: #3585C6;">What You Need to Know to Begin</h2>
+                                <p class="fs-14">
+                                    Practices are the best tools we have to break old habits and build new ones. They help us turn understanding into consistent, positive action.
+                                </p>
+                                <a href="#" class="a-project fs-14 next" style="color: #3585C6;">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        
+        <!-- Muse Scripts -->
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/lodash/lodash.min.js"></script>
+        <script src="assets/vendor/highcharts/highmaps.js"></script>
+        <script src="assets/vendor/highcharts/modules/data.js"></script>
+        <script src="assets/vendor/highcharts/mapdata/countries/us/us-all.js"></script>
+        <script src="assets/vendor/plyr/dist/plyr.polyfilled.min.js"></script>
+        <script src="assets/vendor/choices-master/public/assets/scripts/choices.min.js"></script>
+        <script src="assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/progressbar/dist/progressbar.min.js"></script>
+        <script src="assets/vendor/dropzone/dist/min/dropzone.min.js"></script>
+        <script src="assets/vendor/simplebar/dist/simplebar.min.js"></script>
+        <script src="assets/vendor/purecounterjs/dist/purecounter.js"></script>
+        <script src="assets/vendor/prism/prism.js"></script>
+        <script src="assets/js/theme-custom.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                checkButtons();
+                stepColors();
+
+                wheelText= ['Sample 1', 'Sample 2', 'Sample 3', 'Sample 4', 'Sample 5', 'Sample 6', 'Sample 7', 'Sample 8', 'Sample 9', 'Sample 10']
+
+                rotationAngle = 0;
+                $("#wheel").on("click", function() {
+                    rotationAngle = Math.floor(Math.random() * (2520 - 2160 + 1)) + 2160;
+                    angle = 0;
+                    text = 0;
+
+                    interval = setInterval(function() {
+                        if(angle < rotationAngle - 600) {
+                            angle += 10;
+                            $(".wheel-section").attr('transform', 'rotate(' + angle + ', 167, 154)');
+                        } else if(angle > rotationAngle - 600 && angle < rotationAngle - 300) {
+                            angle += 5;
+                            $(".wheel-section").attr('transform', 'rotate(' + angle + ', 167, 154)');
+                        } else if(angle > rotationAngle - 300 && angle < rotationAngle - 50) {
+                            angle += 3;
+                            $(".wheel-section").attr('transform', 'rotate(' + angle + ', 167, 154)');
+                        } else if(angle > rotationAngle - 50 && angle < rotationAngle) {
+                            angle += 2;
+                            $(".wheel-section").attr('transform', 'rotate(' + angle + ', 167, 154)');
+                        } else {
+                            angle = 0;
+                            clearInterval(interval);
+                        }
+                        if(text < wheelText.length - 1) {
+                            text++;
+                        } else {
+                            text = 0;
+                        }
+                        $("#q5").attr('placeholder', wheelText[text]);
+                        console.log($("#q5").html());
+                    }, 10);
+                });
+            })
+
+            $(".submit-form").click(function() {
+                return false;
+                // $("#step1-form").submit();
+            })
+
+            $(".confetti-trigger").click(function() {
+                var confettiSettings = { 
+                    target: 'confetti-canvas',
+                    numberOfPieces: 2000,  // Increase the particle count
+                    defaultSpeed: 8      // Increase the maximum velocity
+                };
+                var confetti = new ConfettiGenerator(confettiSettings);
+                confetti.render();
+                timer = setTimeout(function() {
+                    confetti.clear();
+                }, 5000);
+            })
+
+            function checkButtons() {
+                if ($(".active").next().hasClass('frame-project')) {
+                    $(".nextG").children().attr('fill', "#3585c6");
+                    $(".next").css("pointer-events", "all");
+                    $(".next").css("cursor", "pointer");
+                } else {
+                    $(".nextG").children().attr('fill', "#FFF")
+                    $(".next").css("pointer-events", "none");
+                    $(".next").css("cursor", "not-allowed");
+                }
+                if ($(".active").prev().hasClass('frame-project')) {
+                    $(".prevG").children().attr('fill', "#3585c6")
+                    $(".prev").css("pointer-events", "all");
+                    $(".prev").css("cursor", "pointer");
+                } else {
+                    $(".prevG").children().attr('fill', "#FFF")
+                    $(".prev").css("pointer-events", "none");
+                    $(".prev").css("cursor", "not-allowed");
+                }
+            }
+
+            $(".prev").click(function() {
+                if($(".active").prev().hasClass('frame-project')) {
+                    frame = $(".active").prev();
+                    $(".active").addClass("d-none");
+                    $(".active").removeClass("active");
+                    frame.addClass("active");
+                    frame.removeClass("d-none");
+                    checkButtons();
+                    stepColors();
+                }
+            })
+
+            $(".next").click(function() {
+                if($(".active").next().hasClass('frame-project')) {
+                    frame = $(".active").next();
+                    $(".active").addClass("d-none");
+                    $(".active").removeClass("active");
+                    frame.addClass("active");
+                    frame.removeClass("d-none");
+                    checkButtons();
+                    stepColors();
+                }
+            })
+
+            function stepColors() {
+                colors = ['#0086cc', '#ff745c', '#ff7c0f', '#ffb000', '#00bb57', '#00c5e9', '#0086cc', '#485daf', '#0086cc'];
+                stepNum = parseInt($(".active").attr("data-num"));
+                $('circle').each(function() {
+                    $(this).attr("fill", "#fff");
+                    $(this).attr("r", "10.06");
+                })
+                $('.frame-project').each(function(i) {
+                    if(parseInt($(this).attr("data-num")) < stepNum+1) {
+                        step = $(this).attr("data-step");
+                        $("#" + step).attr("fill", colors[$(this).attr("data-num")]);
+                        $("#" + step).attr("r", "16");
+                    }
+                })
+            }
+
+            $(".calender").click(function() {
+                day = $(this).attr("data-day");
+                $("#day").html(day);
+                $(".calender").each(function() {
+                    if(!$(this).hasClass("cal-name")) {
+                        if($(this).hasClass("cls-2-calender")) {
+                            $(this).removeClass("cls-2-calender");
+                            $(this).addClass("cls-1-calender");
+                        } else if($(this).attr("data-day") == day) {
+                            $(this).addClass("cls-2-calender");
+                            $(this).removeClass("cls-1-calender");
+                        }
+                    } else {
+                        if($(this).hasClass("cls-4-calender")) {
+                            $(this).removeClass("cls-4-calender");
+                            $(this).addClass("cls-3-calender");
+                        } else if($(this).attr("data-day") == day) {
+                            $(this).addClass("cls-4-calender");
+                            $(this).removeClass("cls-3-calender");
+                        }
+                    }
+                })
+            })
+        
+            $(".clock-section").click(function() {
+                time = $(this).attr("data-time");
+                $(".time-val").html(time);
+                $(".clock-section").each(function(){
+                    if($(this).hasClass("cls-1-clock")) {
+                        $(this).removeClass("cls-1-clock");
+                        $(this).addClass("cls-4-clock");
+                    }
+                })
+                $(this).addClass("cls-1-clock");
+                $(this).removeClass("cls-4-clock");
+            })
+
+            $(".clock-am-pm").click(function() {
+                zone = $(this).attr("data-am-pm");
+                $(".am-pm").html(zone);
+                $(".clock-am-pm").each(function() {
+                    $(this).children().each(function() {
+                        if($(this).hasClass("cls-1-clock")){
+                            $(this).removeClass("cls-1-clock");
+                            $(this).addClass("cls-4-clock");
+                        } else if($(this).hasClass("cls-2-clock")) {
+                            $(this).removeClass("cls-2-clock");
+                            $(this).addClass("cls-5-clock");
+                        }
+                    })
+                })
+                $(this).children().each(function() {
+                    if($(this).hasClass("cls-4-clock")) {
+                        $(this).removeClass("cls-4-clock");
+                        $(this).addClass("cls-1-clock");
+                    } else if($(this).hasClass("cls-5-clock")) {
+                        $(this).removeClass("cls-5-clock");
+                        $(this).addClass("cls-2-clock");
+                    }
+                })
+            })
+        
+            $('.popup-trigger').click(function() {
+                $('.popup-container').removeClass('d-none');
+            });
+
+            $('.close-icon').click(function() {
+                $('.popup-container').addClass('d-none');
+            });
+        </script>
+    </body>
+</html>

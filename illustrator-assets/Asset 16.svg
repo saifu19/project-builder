@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380.28 214.47">
+    <defs>
+        <style>
+            .cls-1{fill:#d0d0d0;}
+            .cls-1,.cls-2{opacity:0.25;}
+            .cls-2,.cls-4{fill:#28c2e5;}
+            .cls-3{fill:#888;}
+            .cls-5{font-size:13.6px;fill:#fff;font-family:SofiaPro-Black, SofiaPro Black;font-weight:800;}
+            .cls-6{letter-spacing:-0.08em;}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="main_content" data-name="main content">
+            <rect class="cls-1" y="22.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" y="62.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" y="101.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" y="141.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" y="180.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="55.16" y="22.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="55.16" y="62.03" width="49.32" height="33.94"/>
+            
+            <rect class="cls-1" x="55.16" y="101.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="55.16" y="141.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="55.16" y="180.53" width="49.32" height="33.94"/>
+            <rect class="cls-2" x="110.32" y="22.53" width="49.32" height="33.94"/>
+            <rect class="cls-2" x="110.32" y="62.03" width="49.32" height="33.94"/>
+            <rect class="cls-2" x="110.32" y="101.53" width="49.32" height="33.94"/>
+            <rect class="cls-2" x="110.32" y="141.03" width="49.32" height="33.94"/>
+            <rect class="cls-2" x="110.32" y="180.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="165.48" y="22.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="165.48" y="62.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="165.48" y="101.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="165.48" y="141.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="165.48" y="180.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="220.63" y="22.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="220.63" y="62.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="220.63" y="101.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="220.63" y="141.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="220.63" y="180.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="275.79" y="22.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="275.79" y="62.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="275.79" y="101.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="275.79" y="141.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="275.79" y="180.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="330.95" y="22.53" width="49.32" height="33.94"/>
+            <rect class="cls-3" width="49.32" height="16.97"/>
+            <rect class="cls-3" x="55.16" width="49.32" height="16.97"/>
+            <rect class="cls-4" x="110.32" width="49.32" height="16.97"/>
+            <rect class="cls-3" x="165.48" width="49.32" height="16.97"/>
+            <rect class="cls-3" x="220.63" width="49.32" height="16.97"/>
+            <rect class="cls-3" x="275.79" width="49.32" height="16.97"/>
+            <rect class="cls-3" x="330.95" width="49.32" height="16.97"/>
+            <rect class="cls-1" x="330.95" y="62.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="330.95" y="101.53" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="330.95" y="141.03" width="49.32" height="33.94"/>
+            <rect class="cls-1" x="330.95" y="180.53" width="49.32" height="33.94"/>
+            <text class="cls-5" transform="translate(11.98 13.16)">SUN</text>
+            <text class="cls-5" transform="translate(65.19 13.16)">MON</text>
+            <text class="cls-5" transform="translate(123.85 13.16)">TUE</text>
+            <text class="cls-5" transform="translate(176.51 13.16)">WED</text>
+            <text class="cls-5" transform="translate(229.42 13.16)">THUR</text>
+            <text class="cls-5" transform="translate(291.86 13.16)">FRI</text>
+            <text class="cls-5" transform="translate(345.24 13.16)">S<tspan class="cls-6" x="6.71" y="0">A</tspan><tspan x="13.99" y="0">T</tspan></text>
+        </g>
+    </g>
+</svg>

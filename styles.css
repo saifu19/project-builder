@@ -1,0 +1,160 @@
+.body-project {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 3vh 10vw;
+    background-color: #C5C5C5;
+    background-image: url('images/PNG/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+a,
+a:focus,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.fs-10 {
+    font-size: 1.0vw;
+    line-height: 1.1vw;
+}
+.fs-12 {
+    font-size: 1.2vw;
+    line-height: 1.4vw;
+}
+.fs-14 {
+    font-size: 1.4vw;
+}
+.fw-normal {
+    font-weight: 600 !important;
+    font-family: 'Sofia' !important;
+}
+.body-project {
+    
+}
+.a-project {
+    text-decoration: underline;
+}
+.frame-project {
+    height: 70vh;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+.header-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    /* padding: 10px; */
+    height: 10vh;
+}
+.header-project h2 {
+    color: white;
+}
+.main-project {
+    margin: 7vh 5vw;
+    height: 46vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.s-bold {
+    font-family: 'Sofia bold' !important;
+    color: #515251;
+}
+.s-italic {
+    font-family: 'Sofia Italic' !important;
+    font-style: italic;
+}
+.frame-project p, .frame-project li, .frame-project label {
+    color: #888888;
+}
+.frame-project input {
+    padding: 5px 10px;
+    width: 98%;
+}
+.placeholder-orange::placeholder {
+    color: #ff7c0f;
+}
+.placeholder-red::placeholder {
+    color: #ff745c;
+}
+.placeholder-yellow::placeholder {
+    color: #ffb000;
+}
+.btn-orange {
+    background-color: #ff745c;
+    color: white;
+}
+.green-list, .purple-list {
+    list-style-type: none;
+}
+.green-list li, .purple-list li {
+    /* list-style-image: url('');
+    background-size: 10px !important; */
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 1.2vw;
+    padding-left: 2vw;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.green-list li {
+    background-image: url('illustrator-assets/Asset 14.png');
+}
+.purple-list li {
+    background-image: url('illustrator-assets/Asset 19.png');
+}
+.c-table .col-6 {
+    padding: 5px 2vw;
+    border: 1px solid #888888;
+}
+.c-pointer {
+    cursor: pointer;
+}
+.w-70 {
+    width: 70%;
+}
+.w-80 {
+    width: 80%;
+}
+.popup-container {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup {
+    height: 90vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+}
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.popup-1-inner {
+    width: 100%;
+    height: 100%;
+}
+.popup-section {
+    text-align: left;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}

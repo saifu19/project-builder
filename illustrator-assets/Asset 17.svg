@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 269.91 230.71">
+    <defs>
+        <style>.cls-1{fill:#28c2e5;}
+            .cls-2,.cls-5{font-size:11.33px;font-family:SofiaPro-Bold, SofiaPro Bold;font-weight:700;}
+            .cls-2{fill:#fff;}
+            .cls-3{letter-spacing:0em;}
+            .cls-4{fill:#d0d0d0;opacity:0.25;}
+            .cls-5,.cls-7{fill:#888;}
+            .cls-6{letter-spacing:-0.01em;}
+            .cls-7{font-size:12.7px;font-family:SofiaPro-Black, SofiaPro Black;font-weight:800;}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="main_content" data-name="main content">
+            <rect class="cls-1" x="245.55" y="91.84" width="24.36" height="20.48" rx="2.65"/>
+            <text class="cls-2" transform="translate(249.73 106.04)">
+                <tspan class="cls-3">A</tspan><tspan x="6.89" y="0">M</tspan>
+            </text>
+            <rect class="cls-4" x="245.55" y="120" width="24.36" height="20.48" rx="2.65"/>
+            <text class="cls-5" transform="translate(250.23 134.2)">
+                <tspan class="cls-6">P</tspan><tspan x="5.89" y="0">M</tspan>
+            </text>
+            <path class="cls-4" d="M20.64,113.49h94.87L34.7,63.74A96.54,96.54,0,0,0,20.64,113.49Z"/>
+            <path class="cls-4" d="M117,211V116.16L67.25,197A96.48,96.48,0,0,0,117,211Z"/>
+            <path class="cls-4" d="M118.18,116.16V211A96.48,96.48,0,0,0,167.93,197Z"/>
+            <path class="cls-4" d="M115.51,114.67H20.64A96.56,96.56,0,0,0,34.7,164.42Z"/>
+            <path class="cls-4" d="M118.18,17.12V112l49.75-80.8A96.48,96.48,0,0,0,118.18,17.12Z"/>
+            <path class="cls-4" d="M117,112V17.12A96.48,96.48,0,0,0,67.25,31.19Z"/>
+            <path class="cls-4" d="M119.4,112.27l80.45-49.53a97.47,97.47,0,0,0-30.92-30.93Z"/>
+            <path class="cls-4" d="M119.68,113.49h94.87a96.55,96.55,0,0,0-14.07-49.75Z"/>
+            <path class="cls-4" d="M119.4,115.88l49.53,80.46a97.44,97.44,0,0,0,30.92-30.92Z"/>
+            <path class="cls-4" d="M115.79,115.88,35.33,165.42a97.44,97.44,0,0,0,30.92,30.92Z"/>
+            <path class="cls-4" d="M214.55,114.67H119.68l80.8,49.75A96.57,96.57,0,0,0,214.55,114.67Z"/>
+            <path class="cls-1" d="M115.79,112.27,66.25,31.81A97.47,97.47,0,0,0,35.33,62.74Z"/>
+            <text class="cls-7" transform="translate(111.44 10.63)">12</text>
+            <text class="cls-7" transform="translate(170.78 25.97)">1</text>
+            <text class="cls-7" transform="translate(203.94 57.24)">2</text>
+            <text class="cls-7" transform="translate(18.79 57.24)">10</text>
+            <text class="cls-7" transform="translate(203.94 173.43)">4</text>
+            <text class="cls-7" transform="translate(22.05 173.43)">8</text>
+            <text class="cls-7" transform="translate(53.48 25.97)">11</text>
+            <text class="cls-7" transform="translate(172.66 208.96)">5</text>
+            <text class="cls-7" transform="translate(56.73 208.96)">7</text>
+            <text class="cls-7" transform="translate(221.61 117.42)">3</text>
+            <text class="cls-7" transform="translate(7.06 117.42)">9</text>
+            <text class="cls-7" transform="translate(114.7 224.21)">6</text>
+        </g>
+    </g>
+</svg>

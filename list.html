@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Muse">
+        <meta name="keywords" content="Muse">
+        <meta name="author" content="Muse">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Project Builder - ProjectWe</title>
+        <link href="assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+        <!-- Muse CSS -->
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/flatpickr/dist/flatpickr.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/plyr/dist/plyr.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/choices-master/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/dropzone/dist/min/dropzone.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/simplebar/dist/simplebar.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/vendor/prism/prism.css" rel="stylesheet" type="text/css" media="all">
+        <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" media="all">
+        <link href="styles.css" rel="stylesheet">
+
+        <script type=“text/javascript” src=“https://www.bugherd.com/sidebarv2.js?apikey=vc6fvv8gvw8hpwajq20vza” async=“true”></script>
+
+    </head>
+    <style>
+        /* scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 12px;
+            background-color: #e1e1e1;
+            border-radius: 10px;
+        }
+        /* thumb styling */
+        ::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: #898989;
+        }
+        @font-face {
+            font-family: 'Sofia';
+            src: url('assets/sofiapro-light-webfont.woff'),
+                url('assets/sofiapro-light-webfont.woff2');
+        }
+        @font-face {
+            font-family: 'Sofia Bold';
+            src: url('assets/SofiaProBold.woff');
+            src: url('assets/SofiaProBold.woff2');
+            font-weight: bold;
+        }
+        @font-face {
+            font-family: 'Sofia Italic';
+            src: url('assets/SofiaItalic.woff')
+                url('assets/SofiaItalic.woff2');
+        }
+        body *, p {
+            font-family: 'Sofia' !important;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Sofia Bold' !important;
+            font-weight: bold;
+        }
+    </style>
+    <body class="body-project">
+
+        <canvas id="confetti-canvas" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: transparent; z-index: 2; pointer-events: none;"></canvas>
+        
+        <ul class="purple-list fs-14">
+            <li>
+                Complete: <a href="index.html">Click Here</a>
+            </li>
+            <li>
+                Welcome: <a href="welcome.html">Click Here</a>
+            </li>
+            <li>
+                Step 1: <a href="step-1.html">Click Here</a>
+            </li>
+            <li>
+                Step 1 (2nd Page): <a href="step-12.html">Click Here</a>
+            </li>
+            <li>
+                Step 1 (3rd Page): <a href="step-13.html">Click Here</a>
+            </li>
+            <li>
+                Step 2: <a href="step-2.html">Click Here</a>
+            </li>
+            <li>
+                Step 2 (2nd Page): <a href="step-21.html">Click Here</a>
+            </li>
+            <li>
+                Step 3: <a href="step-3.html">Click Here</a>
+            </li>
+            <li>
+                Step 3 (2nd Page): <a href="step-32.html">Click Here</a>
+            </li>
+            <li>
+                Step 4: <a href="step-4.html">Click Here</a>
+            </li>
+            <li>
+                Step 4 (1st Page): <a href="step-41.html">Click Here</a>
+            </li>
+            <li>
+                Step 4 (2nd Page): <a href="step-42.html">Click Here</a>
+            </li>
+            <li>
+                Step 5: <a href="step-5.html">Click Here</a>
+            </li>
+            <li>
+                Step 5 (1st Page): <a href="step-51.html">Click Here</a>
+            </li>
+            <li>
+                Stay In Choice: <a href="choice.html">Click Here</a>
+            </li>
+            <li>
+                Stay In Choice (2nd Page): <a href="choice-2.html">Click Here</a>
+            </li>
+            <li>
+                Stay In Choice (3rd Page): <a href="choice-3.html">Click Here</a>
+            </li>
+            <li>
+                Step 6: <a href="step-6.html">Click Here</a>
+            </li>
+            <li>
+                Step 6 (2nd Page): <a href="step-61.html">Click Here</a>
+            </li>
+            <li>
+                Step 6 (3rd Page): <a href="step-62.html">Click Here</a>
+            </li>
+            <li>
+                Module Complete: <a href="complete.html">Click Here</a>
+            </li>
+        </ul>
+        
+        <!-- Muse Scripts -->
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/lodash/lodash.min.js"></script>
+        <script src="assets/vendor/highcharts/highmaps.js"></script>
+        <script src="assets/vendor/highcharts/modules/data.js"></script>
+        <script src="assets/vendor/highcharts/mapdata/countries/us/us-all.js"></script>
+        <script src="assets/vendor/plyr/dist/plyr.polyfilled.min.js"></script>
+        <script src="assets/vendor/choices-master/public/assets/scripts/choices.min.js"></script>
+        <script src="assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/progressbar/dist/progressbar.min.js"></script>
+        <script src="assets/vendor/dropzone/dist/min/dropzone.min.js"></script>
+        <script src="assets/vendor/simplebar/dist/simplebar.min.js"></script>
+        <script src="assets/vendor/purecounterjs/dist/purecounter.js"></script>
+        <script src="assets/vendor/prism/prism.js"></script>
+        <script src="assets/js/theme-custom.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var confettiSettings = { 
+                    target: 'confetti-canvas',
+                    numberOfPieces: 2000,  // Increase the particle count
+                    defaultSpeed: 8      // Increase the maximum velocity
+                };
+                var confetti = new ConfettiGenerator(confettiSettings);
+                confetti.render();
+            })
+        </script>
+    </body>
+</html>

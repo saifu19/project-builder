@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 992.92 35">
+    <defs>
+        <style>
+            .cls-1{fill:none;}
+            .cls-1,.cls-2{stroke:#fff;stroke-miterlimit:10;stroke-width:3px;}
+            .cls-2{fill:#3585c6;}
+            .cls-3{fill:#fff;}
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="journey_nav" data-name="journey nav">
+            <line class="cls-1" y1="17.5" x2="992.92" y2="17.5"/>
+            <circle class="cls-2" cx="85.38" cy="17.5" r="16"/>
+            <circle class="cls-3" cx="188.15" cy="17.5" r="10.06"/>
+            <circle class="cls-3" cx="290.92" cy="17.5" r="10.06"/>
+            <circle class="cls-3" cx="393.69" cy="17.5" r="10.06"/>
+            <circle class="cls-3" cx="496.46" cy="17.5" r="10.06"/>
+            <circle class="cls-3" cx="599.23" cy="17.5" r="10.06"/>
+            <circle class="cls-3" cx="702" cy="17.5" r="10.06"/>
+            <circle class="cls-3" cx="804.77" cy="17.5" r="10.06"/>
+            <circle class="cls-3" cx="907.54" cy="17.5" r="10.06"/>
+        </g>
+    </g>
+</svg>

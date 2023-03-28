@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 318.42 302.56">
+    <defs>
+        <style>
+            .cls-1-wheel,.cls-2-wheel,.cls-3-wheel,.cls-4-wheel,.cls-5-wheel,.cls-6-wheel,.cls-7-wheel,.cls-8-wheel{fill:#fcb31f;}
+            .cls-1-wheel{opacity:0.6;}
+            .cls-2-wheel{opacity:0.5;}
+            .cls-3-wheel{opacity:0.3;}
+            .cls-4-wheel{opacity:0.2;}
+            .cls-5-wheel{opacity:0.7;}
+            .cls-6-wheel{opacity:0.8;}
+            .cls-7-wheel{opacity:0.1;}
+            .cls-8-wheel{opacity:0.4;}
+            .cls-9-wheel{fill:#515251;}
+        </style>
+    </defs>
+    <g data-name="Layer 2">
+        <g id="main_content" data-name="main content">
+            <path class="cls-1-wheel" d="M15.89,154.14A150.76,150.76,0,0,0,61.25,259.32L166.39,154Z"/>
+            <path class="cls-2-wheel" d="M166.83,154.47,61.7,259.75a150.75,150.75,0,0,0,105.24,42.81Z"/>
+            <path class="cls-3-wheel" d="M167.88,154l105.3,105.13a150.8,150.8,0,0,0,45.21-105.25Z"/>
+            <path class="cls-4-wheel" d="M167.88,153.41l150.51-.11c0-.71,0-1.42,0-2.13a150.77,150.77,0,0,0-43-105.49Z"/>
+            <path class="cls-5-wheel" d="M166.39,153.41,58.66,45.84A150.78,150.78,0,0,0,15.85,151.39c0,.72,0,1.42,0,2.13Z"/>
+            <path class="cls-6-wheel" d="M166.83,153,166.71,0A150.84,150.84,0,0,0,59.09,45.4Z"/>
+            <path class="cls-7-wheel" d="M167.44,153,275,45.24A150.81,150.81,0,0,0,167.33,0Z"/>
+            <path class="cls-8-wheel" d="M167.44,154.46l.12,148.1a150.73,150.73,0,0,0,105.17-43Z"/>
+            <polygon class="cls-9-wheel" points="46.32 153.91 0 127.17 0 180.66 46.32 153.91"/>
+        </g>
+    </g>
+</svg>
